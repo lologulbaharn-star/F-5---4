@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Cairo:wght@300;400;700&display=swap');
+
+:root {
+  --royal-green: rgba(45, 62, 64, 1.0);
+  --muted-gold: rgba(197, 163, 88, 1.0);
+  --cream-bg: rgba(249, 247, 242, 1.0);
+}
+
+body {
+  background-color: var(--cream-bg);
+  color: var(--royal-green);
+  font-family: 'Cairo', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h4 {
+  font-family: 'Amiri', serif;
+}
+
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--cream-bg); }
+::-webkit-scrollbar-thumb { background: var(--muted-gold); border-radius: 10px; }
+
+.glass-modal {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+}
